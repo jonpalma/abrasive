@@ -26,6 +26,22 @@
                         </div>
                     </div>
                 </div>
+                <div class="item">
+                    <div class="img-container">
+                        <img src="img/banner/1.jpg" alt="Banner">
+                    </div>
+                    <div class="carousel-caption">
+                        <div class="container vertical-align text-center">
+                            <div>
+                                <h2>ABRASIVE SOLUTIONS</h2>
+                                <p>
+                                    Elaboración de bandas, hojas, discos, rollos y 
+                                    especialidades en abrasivos revestidos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -66,7 +82,10 @@
     <!--/* Productos */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="productos" id="productos">
+    <section class="productos parallax-container" id="productos">
+        <div class="parallax">
+            <img src="img/productos/bg.jpg" alt="Parallax">
+        </div>
         <div class="container spacing">
             <div class="header text-center">
                 <h1>PRODUCTOS</h1>
@@ -74,31 +93,130 @@
                     Abrasivos para todos los procesos de pulición.
                 </p>
             </div>
-            <div class="lista-productos row no-margin">
-                <a class="bttn-skew" href="">DISCOS</a>
-                <a class="bttn-skew" href="">HOJAS</a>
-                <a class="bttn-skew" href="">BANDAS</a>
-                <a class="bttn-skew" href="">ROYOS</a>
-                <a class="bttn-skew" href="">ESPECIALIDADES</a>
+            <div class="lista-productos">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#discos" aria-controls="discos" role="tab" data-toggle="tab">DISCOS</a></li>
+                    <li role="presentation"><a href="#hojas" aria-controls="hojas" role="tab" data-toggle="tab">HOJAS</a></li>
+                    <li role="presentation"><a href="#bandas" aria-controls="bandas" role="tab" data-toggle="tab">BANDAS</a></li>
+                    <li role="presentation"><a href="#royos" aria-controls="royos" role="tab" data-toggle="tab">ROYOS</a></li>
+                    <li role="presentation"><a href="#especialidades" aria-controls="especialidades" role="tab" data-toggle="tab">ESPECIALIDADES</a></li>
+                </ul>
             </div>
-            <div class="informacion row no-margin">
-                <div class="col-sm-6 left-side">
-                    <img class="vertical-align" src="img/productos/1.jpg" alt="">
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="discos">
+                    <div class="informacion row no-margin">
+                        <div class="col-sm-6 left-side">
+                            <img class="vertical-align" src="img/productos/1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6 right-side">
+                            <div >
+                                <h5>DISCOS</h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
+                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
+                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
+                                    de procesos industriales y artesanos.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="">MÁS...</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-6 right-side">
-                    <div >
-                        <h5>SERVICIO</h5>
+                <div role="tabpanel" class="tab-pane fade" id="hojas">
+                    <div class="informacion row no-margin">
+                        <div class="col-sm-6 left-side">
+                            <img class="vertical-align" src="img/productos/1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6 right-side">
+                            <div >
+                                <h5>HOJAS</h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
+                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
+                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
+                                    de procesos industriales y artesanos.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="">MÁS...</a>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>
-                            Un abrasivo es una sustancia que tiene como finalidad actuar sobre
-                            otros materiales con diferentes clases de esfuerzo mécanico -triturado,
-                            molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
-                            de procesos industriales y artesanos.
-                        </p>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="bandas">
+                    <div class="informacion row no-margin">
+                        <div class="col-sm-6 left-side">
+                            <img class="vertical-align" src="img/productos/1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6 right-side">
+                            <div >
+                                <h5>BANDAS</h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
+                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
+                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
+                                    de procesos industriales y artesanos.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="">MÁS...</a>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <a href="">MÁS...</a>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="royos">
+                    <div class="informacion row no-margin">
+                        <div class="col-sm-6 left-side">
+                            <img class="vertical-align" src="img/productos/1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6 right-side">
+                            <div >
+                                <h5>ROYOS</h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
+                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
+                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
+                                    de procesos industriales y artesanos.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="">MÁS...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="especialidades">
+                    <div class="informacion row no-margin">
+                        <div class="col-sm-6 left-side">
+                            <img class="vertical-align" src="img/productos/1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6 right-side">
+                            <div >
+                                <h5>ESPECIALIDADES</h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
+                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
+                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
+                                    de procesos industriales y artesanos.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="">MÁS...</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,19 +229,24 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="pre-servicios" id="pre-servicios">
         <div class="top">
-            <div class="col-sm-3 vertical-align skew">
-                <img src="img/icons/servicio.png" alt="">
+            <div class="container">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2 vertical-align">
+                    <img src="img/icons/servicio.png" alt="">
+                </div>
+                <div class="col-sm-1 skew"></div>
+                <div class="col-sm-2 vertical-align">
+                    <img src="img/icons/experiencia.png" alt="">
+                </div>
+                <div class="col-sm-1 skew"></div>
+                <div class="col-sm-2 vertical-align">
+                    <img src="img/icons/innovacion.png" alt="">
+                </div>
+                <div class="col-sm-1 skew"></div>
+                <div class="col-sm-2 vertical-align">
+                    <img src="img/icons/tecnologia.png" alt="">
+                </div>
             </div>
-            <div class="col-sm-3 vertical-align skew">
-                <img src="img/icons/experiencia.png" alt="">
-            </div>
-            <div class="col-sm-3 vertical-align skew">
-                <img src="img/icons/inovacion.png" alt="">
-            </div>
-            <div class="col-sm-3 vertical-align">
-                <img src="img/icons/tecnologia.png" alt="">
-            </div>
-            <!--<a class="skew vertical-align"></a>-->
         </div>
         <div class="bottom">
             <div class="container text-center light-spacing">

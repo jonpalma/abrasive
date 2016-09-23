@@ -60,33 +60,6 @@ body {
     margin: 0;
 }
 
-.bttn-skew {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 150px;
-    height: 30px;
-    line-height: 30px;
-    margin: 5px 5px;
-    z-index: 1;
-}
-
-.bttn-skew::before {
-    position: absolute;
-    content: '';
-    display: block;
-    transform: skewX(-25deg);
-    background-color: rgba(255, 255, 255, 1);
-    transition: background 300ms ease;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.bttn-skew:hover::before {
-    background-color: rgba(185, 215, 50, 1);
-}
-
 
 
 
@@ -146,14 +119,9 @@ body {
     transition: all 300ms ease;
 }
 
-.navbar-nav>li.active > a,
 .navbar-nav>li:hover > a {
     background-color: transparent!important;
     color: rgba(184, 215, 51, 1)!important;
-}
-
-.navbar-nav > li.active > a {
-    border: 1px solid rgba(184, 215, 51, 1);
 }
 
 .navbar .nav-logo {
@@ -257,7 +225,7 @@ body {
 
 /* EMPRESA */
 .index .empresa {
-    height: auto;
+    height: 650px;
     background: url(img/empresa/bg.jpg) no-repeat center right;
     background-size: 45vw;
 }
@@ -293,8 +261,6 @@ body {
 /* PRODUCTOS */
 .index .productos {
     height: auto;
-    background: url(img/productos/bg.jpg) no-repeat center center;
-    background-size: cover;
 }
 
 .index .productos .container {
@@ -311,7 +277,7 @@ body {
 
 .index .productos .container .header h1::after {
     position: absolute;
-    content: "";
+    content: '';
     width: 25%;
     border-bottom: 3px solid rgba(255, 255, 255, 1);
     bottom: 0;
@@ -328,17 +294,46 @@ body {
     margin: 30px 100px;
 }
 
-.index .productos .container .lista-productos {
-    text-align: right;
+.index .productos .container .lista-productos ul {
+    border: none;
 }
 
-.index .productos .container .lista-productos a {
+.index .productos .container .lista-productos ul a {
+    border: none;
+    background-color: transparent;
     text-decoration: none!important;
     outline: none!important;
     font-family: 'Robot', sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: rgba(40, 40, 40, 1);
+    text-align: center;
+    width: 150px;
+    margin: 5px 10px;
+    z-index: 1;
+}
+
+.index .productos .container .lista-productos ul a::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    content: '';
+    display: block;
+    transform: skewX(-25deg);
+    background-color: rgba(255, 255, 255, 1);
+    transition: background 300ms ease;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.index .productos .container .lista-productos ul a:hover::before {
+    background-color: rgba(185, 215, 50, 1);
+}
+
+.index .productos .container .lista-productos .active ::before {
+    background-color: rgba(185, 215, 50, 1);
 }
 
 .index .productos .container .informacion {
@@ -446,26 +441,26 @@ body {
 
 .index .pre-servicios .top {
     height: 200px;
-    text-align: center;
     background-color: rgba(185, 215, 50, 1);
 }
 
-.index .pre-servicios .top .row a {
-    
+.index .pre-servicios .top .container {
+    height: 200px;
 }
 
-.index .pre-servicios .top .skew::before {
-    position: absolute;
+.index .pre-servicios .top .col-sm-2 img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.index .pre-servicios .top .skew {
     content: '';
     border-right: 2px solid rgba(105, 110, 80, 1);
     transform: skewX(-25deg);
-    height: 125%;
-    width: 93%;
-}
-
-.index .pre-servicios .top .row img {
-    width: 150px;
-    margin: 0px 20px;
+    height: 60%;
+    top: 20%;
+    width: auto;
+    margin-right: 20px;
 }
 
 .index .pre-servicios .bottom {
@@ -734,7 +729,7 @@ body {
 }
 
 .index .contacto .bottom .right-side {
-    
+
 }
 
 .index .contacto .bottom .right-side img {
@@ -805,35 +800,257 @@ footer .footer-rights a:hover {
 
 /*** RESPONSIVE ****/
 @media(max-width: 1200px) {
-
+    /* GENERAL STYLES */
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 30px;
+    }
 }
 
 @media(max-width: 992px) {
+    /* GENERAL STYLES */
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 33px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .bttn-skew {
+        width: 130px;
+    }
 
+
+
+    /* NAVBAR */
+    .navbar-nav > li > a {
+        padding: 5px;
+    }
+
+
+
+    /****** INDEX ******/
+    /* BANNER */
+    .index .banner .carousel p {
+        font-size: 16px;
+    }
 }
 
 @media(max-width: 767px) {
+    /* GENERAL STYLES */
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .bttn-skew {
+        width: 110px;
+    }
+
+
     /* NAVBAR */
+    .navbar,
     .navbar .navbar-collapse {
         background-color: rgba(0,0,0,.5);
     }
-
+    .navbar-header {
+        height: 80px;
+    }
+    .navbar.navbar-fixed-top {
+        height: 90px;
+        background-color: rgba(0,0,0,.5);
+    }
     .navbar-nav {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
         float: none;
     }
-
     .navbar-nav > li {
         height: auto;
         padding: 0;
         max-width: 200px;
         margin: 0 auto;
     }
-
     .navbar-nav > li > a {
         transform: none;
         padding: 3px 0;
+    }
+    .navbar .nav-logo {
+        margin-left: 10px;
+    }
+    .navbar .nav-logo img {
+        margin-top: 15px;
+        height: 50px;
+    }
+
+
+
+    /****** INDEX ******/
+    /* BANNER */
+    .index .banner .carousel p {
+        font-size: 14px;
+    }
+    .index .banner .carousel h2::after {
+        width: 100px;
+    }
+    /* EMPRESA */
+    .index .empresa {
+        height: auto;
+        background: none;
+    }
+    .index .empresa p {
+        font-size: 14px;
+        margin: 60px 30px;
+    }
+    /* PRODUCTOS */
+    .index .productos .container .header p {
+        font-size: 14px;
+    }
+    .index .productos .container .lista-productos a {
+        font-size: 12px;
+    }
+    .index .productos .container .informacion .left-side,
+    .index .productos .container .informacion .right-side {
+        height: 250px;
+    }
+    .index .productos .container .informacion .right-side h5 {
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+
+    .index .productos .container .informacion .right-side p {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-weight: 500;
+        color: rgba(140, 140, 140, 1);
+    }
+    .index .productos .container .informacion .right-side a {
+        right: 70px;
+    }
+    .index .productos .container .informacion .right-side::before,
+    .index .productos .container .informacion .right-side::after {
+        content: none;
+    }
+    /* PRE-SERVICIOS */
+    .index .pre-servicios .top {
+        height: auto;
+    }
+    .index .pre-servicios .top .skew {
+        content: none;
+    }
+    .index .pre-servicios .top .container {
+        height: auto;
+    }
+    .index .pre-servicios .top .container .col-sm-2 {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+        padding: 20px;
+    }
+    .index .pre-servicios .top .container .col-sm-2 img {
+        display: block;
+        width: auto;
+    }
+    .index .pre-servicios .bottom .container p {
+        font-size: 16px;
+    }
+    .index .pre-servicios .bottom .container a {
+        font-size: 22px;
+        width: 170px;
+        height: 40px;
+        line-height: 40px;
+    }
+    /* SERVICIOS */
+    .index .servicios .container h1::after {
+        width: 100px;
+    }
+    .index .servicios .container .row img {
+        width: 250px;
+        height: 250px;
+    }
+    .index .servicios .container .row h6 {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .index .servicios .container .row p {
+        text-align: justify;
+        margin-left: 150px;
+        margin-right: 150px;
+        height: 90px;
+    }
+    /* MAPA */
+    .index .mapa {
+        height: 550px;
+    }
+    .index .mapa .container p {
+        padding-left: 200px;
+    }
+    .index .mapa .container .top {
+        font-size: 35px;
+    }
+    .index .mapa .container .middle {
+        font-size: 24px;
+    }
+    .index .mapa .container .bottom {
+        font-size: 45px;
+    }
+    .index .mapa .container .bottom::after {
+        width: 100px;
+    }
+    /* CONTACTO */
+    .index .contacto .top h1::after {
+        width: 100px;
+    }
+    .index .contacto .top p {
+        font-size: 18px;
+    }
+    .index .contacto .middle {
+        position: relative;
+        height: auto;
+    }
+    .index .contacto .middle .map-container {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin-top: -50px;
+    }
+    .index .contacto .middle .form-container .form {
+        margin-top: 30px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .index .contacto .middle .form-container .form input[type=submit] {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .index .contacto .bottom {
+        height: 200px;
+    }
+    .index .contacto .bottom .left-side {
+        font-size: 12px;
+        width: 50%;
+        position: absolute;
+        right: 0;
+    }
+    .index .contacto .bottom .right-side {
+        width: 50%;
+        position: relative;
+    }
+    .index .contacto .bottom .right-side img {
+        width: 100%;
     }
 }
