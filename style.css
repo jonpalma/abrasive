@@ -625,18 +625,18 @@ body {
     height: auto;
 }
 
-.index .contacto .top {
+.index .contacto .pre-top {
     background-color: rgba(255, 240, 0, 1);
 }
 
-.index .contacto .top h1 {
+.index .contacto .pre-top h1 {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: rgba(27, 27, 27, 1);
 }
 
-.index .contacto .top h1::after {
+.index .contacto .pre-top h1::after {
     position: absolute;
     content: "";
     width: 15%;
@@ -647,12 +647,48 @@ body {
     margin: -8px auto;
 }
 
-.index .contacto .top p {
+.index .contacto .pre-top p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: rgba(27, 27, 27, 1);
     margin-top: 25px;
+}
+
+.index .contacto .post-top .contnt,
+.index .contacto .post-top .contnt .col-sm-4 {
+    height: 100px;
+}
+
+.index .contacto .post-top img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.index .contacto .post-top {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgba(27, 27, 27, 1);
+}
+
+.index .contacto .post-top h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.index .contacto .post-top a {
+    text-decoration: none!important;
+    outline: none!important;
+    color: rgba(27, 27, 27, 1);
+    transition: color 300ms ease;
+}
+
+.index .contacto .post-top a:hover {
+    color: rgba(160, 160, 160, 1);
+}
+
+.index .contacto .post-top .email {
+    word-break: break-all;
 }
 
 .index .contacto .middle {
@@ -709,30 +745,10 @@ body {
 
 .index .contacto .bottom {
     height: auto;
+    background-color: rgba(27, 27, 27, 1);
 }
 
-.index .contacto .bottom .left-side {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: rgba(27, 27, 27, 1);
-}
-
-.index .contacto .bottom .left-side a {
-    text-decoration: none!important;
-    outline: none!important;
-    color: rgba(27, 27, 27, 1);
-    transition: color 300ms ease;
-}
-
-.index .contacto .bottom .left-side a:hover {
-    color: rgba(160, 160, 160, 1);
-}
-
-.index .contacto .bottom .right-side {
-
-}
-
-.index .contacto .bottom .right-side img {
+.index .contacto .bottom .container img {
     height: 100%;
     padding: 10px 0px;
 }
@@ -741,7 +757,7 @@ body {
 
 /* FOOTER */
 footer {
-    background-color: rgba(27, 27, 27, 1);
+    background-color: rgba(49, 49, 49, 1);
 }
 
 footer .footer-rights {
@@ -1010,11 +1026,26 @@ footer .footer-rights a:hover {
         width: 100px;
     }
     /* CONTACTO */
-    .index .contacto .top h1::after {
+    .index .contacto .pre-top h1::after {
         width: 100px;
     }
-    .index .contacto .top p {
+    .index .contacto .pre-top p {
         font-size: 18px;
+    }
+    .index .contacto .post-top {
+        text-align: center;
+    }
+    .index .contacto .post-top .contnt
+    {
+        height: auto;
+    }
+    .index .contacto .post-top .contnt .col-sm-8
+    {
+        margin-top: 30px;
+    }
+    .index .contacto .post-top img {
+        max-width: 100%;
+        width: auto;
     }
     .index .contacto .middle {
         position: relative;
@@ -1039,18 +1070,5 @@ footer .footer-rights a:hover {
     }
     .index .contacto .bottom {
         height: 200px;
-    }
-    .index .contacto .bottom .left-side {
-        font-size: 12px;
-        width: 50%;
-        position: absolute;
-        right: 0;
-    }
-    .index .contacto .bottom .right-side {
-        width: 50%;
-        position: relative;
-    }
-    .index .contacto .bottom .right-side img {
-        width: 100%;
     }
 }

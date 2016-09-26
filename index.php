@@ -370,10 +370,54 @@
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="contacto" id="contacto">
-        <div class="top spacing">
+        <div class="pre-top spacing">
             <div class="container text-center">
                 <h1>CONTACTO</h1>
                 <p>Para ofrecerles un mejor servicio envía tus dudas y comentarios.</p>
+            </div>
+        </div>
+        <div class="post-top light-spacing">
+            <div class="container">
+                <div class="col-sm-4 contnt">
+                    <div class="col-sm-4">
+                        <img class="vertical-align" src="img/icons/contacto.png" alt="">
+                    </div>
+                    <div class="col-sm-8 vertical-align">
+                        <h6>
+                            CONTACTO
+                        </h6>
+                        <p>
+                            C.75 #7400 C.P 31380<br/>
+                            Chihuahua, México
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 contnt">
+                    <div class="col-sm-4">
+                        <img class="vertical-align" src="img/icons/tel.png" alt="">
+                    </div>
+                    <div class="col-sm-8 vertical-align">
+                        <h6>
+                            TELÉFONO
+                        </h6>
+                        <p>
+                            52(614)446.5013
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 contnt">
+                    <div class="col-sm-4">
+                        <img class="vertical-align" src="img/icons/correo.png" alt="">
+                    </div>
+                    <div class="col-sm-8 vertical-align">
+                        <h6>
+                            CORREO
+                        </h6>
+                        <p>
+                            <a href="mailto:ventas@abrasivesolutions.com.mx" class="white"><span class="email">ventas@abrasivesolutions.com.mx</span></a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="middle light-spacing">
@@ -400,22 +444,8 @@
             </div>
         </div>
         <div class="bottom light-spacing">
-            <div class="container">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5 left-side">
-                    <p>
-                        Abrasive Solutions<br/>
-                        Converting Center S.A. de C.V.<br/>
-                        C.75 #7400 C.P 31380<br/>
-                        TEL. 52(614)446.5013<br/>
-                        Chihuahua, México<br/>
-                        <a href="mailto:ventas@abrasivesolutions.com.mx" class="white">ventas@abrasivesolutions.com.mx</a>
-                    </p>
-                </div>
-                <div class="col-sm-5 right-side text-right">
-                    <img src="img/logo/logo-black.png" alt="">
-                </div>
-                <div class="col-sm-1"></div>
+            <div class="container text-center">
+                <img src="img/logo/logo.png" alt="">
             </div>
         </div>
     </section>
