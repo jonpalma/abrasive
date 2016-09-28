@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contamos con la mas amplia gama de productos en el ramo, proveyendo el mejor y mas amplio surtido a todos nuestros clientes con la mas alta calidad y atención. Somos líderes en el ramo y 5 años respaldan nuestro nombre con el objetivo de lograr calidad, precio y confianza.">
+        <meta name="keywords" content="abrasive,solutions,bandas,hojas,discos,rollos,abrasivos,revestidos,pulición,pulido,corte,lija,grano">
+        <meta name="author" content="Mixen">
         <link rel="shortcut icon" type="img/png" href="img/favicon.ico"/>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">

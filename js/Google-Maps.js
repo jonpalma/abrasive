@@ -4,7 +4,7 @@ $(document).ready(function () {
 });
 
 function initialize() {
-    if( $('#googleMap').attr('position') == 'contacto' ) {
+    if( $('#googleMap').data('position') == 'contacto' ) {
         var $lat = 28.649760,
             $long = -106.011807,
             $title = 'Abrasive Solutions';

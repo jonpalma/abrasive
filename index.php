@@ -6,7 +6,7 @@
     <!--/* BANNER */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="banner" id="banner">
+    <div class="banner" id="banner">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
@@ -51,13 +51,13 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* Empresa */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="empresa" id="empresa">
+    <div class="empresa" id="empresa">
         <div class="container spacing">
             <div class="text-center">
                 <h1>NOSOTROS</h1>
@@ -76,13 +76,13 @@
                 </p>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* Productos */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="productos parallax-container" id="productos">
+    <div class="productos parallax-container" id="productos">
         <div class="parallax">
             <img src="img/productos/bg.jpg" alt="Parallax">
         </div>
@@ -221,13 +221,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* Pre-Servicios */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="pre-servicios" id="pre-servicios">
+    <div class="pre-servicios" id="pre-servicios">
         <div class="top">
             <div class="container">
                 <div class="col-sm-1"></div>
@@ -255,13 +255,13 @@
                 <a href="">Catálogo</a>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* Servicios */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="servicios" id="servicios">
+    <div class="servicios" id="servicios">
         <div class="container text-center spacing">
             <h1>SERVICIOS</h1>
             <div class="row">
@@ -339,13 +339,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* Mapa */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="mapa" id="mapa">
+    <div class="mapa" id="mapa">
         <div class="container spacing">
             <p>
                 <span class="top">
@@ -363,13 +363,13 @@
                 </span>
             </p>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* Contacto */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="contacto" id="contacto">
+    <div class="contacto" id="contacto">
         <div class="pre-top spacing">
             <div class="container text-center">
                 <h1>CONTACTO</h1>
@@ -422,7 +422,7 @@
         </div>
         <div class="middle light-spacing">
             <div class="col-sm-6 map-container">
-                <div class="googleMap" id="googleMap" position="contacto"></div>
+                <div class="googleMap" id="googleMap" data-position="contacto"></div>
             </div>
             <div class="container form-container">
                 <div class="col-sm-6"></div>
@@ -448,6 +448,6 @@
                 <img src="img/logo/logo.png" alt="">
             </div>
         </div>
-    </section>
+    </div>
 </div>
 <?php include('footer.php'); ?>
