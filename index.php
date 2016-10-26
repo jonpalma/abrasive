@@ -28,14 +28,62 @@
                 </div>
                 <div class="item">
                     <div class="img-container">
-                        <img src="img/banner/1.jpg" alt="Banner">
+                        <img src="img/banner/2.jpg" alt="Banner">
                     </div>
                     <div class="carousel-caption">
                         <div class="container vertical-align text-center">
                             <div>
                                 <h2>ABRASIVE SOLUTIONS</h2>
                                 <p>
-                                    Elaboración de bandas, hojas, discos, rollos y 
+                                    Elaboración de bandas, hojas, discos, rollos y
+                                    especialidades en abrasivos revestidos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-container">
+                        <img src="img/banner/3.jpg" alt="Banner">
+                    </div>
+                    <div class="carousel-caption">
+                        <div class="container vertical-align text-center">
+                            <div>
+                                <h2>ABRASIVE SOLUTIONS</h2>
+                                <p>
+                                    Elaboración de bandas, hojas, discos, rollos y
+                                    especialidades en abrasivos revestidos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-container">
+                        <img src="img/banner/4.jpg" alt="Banner">
+                    </div>
+                    <div class="carousel-caption">
+                        <div class="container vertical-align text-center">
+                            <div>
+                                <h2>ABRASIVE SOLUTIONS</h2>
+                                <p>
+                                    Elaboración de bandas, hojas, discos, rollos y
+                                    especialidades en abrasivos revestidos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-container">
+                        <img src="img/banner/5.jpg" alt="Banner">
+                    </div>
+                    <div class="carousel-caption">
+                        <div class="container vertical-align text-center">
+                            <div>
+                                <h2>ABRASIVE SOLUTIONS</h2>
+                                <p>
+                                    Elaboración de bandas, hojas, discos, rollos y
                                     especialidades en abrasivos revestidos.
                                 </p>
                             </div>
@@ -130,7 +178,7 @@
                 <div role="tabpanel" class="tab-pane fade" id="hojas">
                     <div class="informacion row no-margin">
                         <div class="col-sm-6 left-side">
-                            <img class="vertical-align" src="img/productos/1.jpg" alt="">
+                            <img class="vertical-align" src="img/productos/2.jpg" alt="">
                         </div>
                         <div class="col-sm-6 right-side">
                             <div >
@@ -153,7 +201,7 @@
                 <div role="tabpanel" class="tab-pane fade" id="bandas">
                     <div class="informacion row no-margin">
                         <div class="col-sm-6 left-side">
-                            <img class="vertical-align" src="img/productos/1.jpg" alt="">
+                            <img class="vertical-align" src="img/productos/3.jpg" alt="">
                         </div>
                         <div class="col-sm-6 right-side">
                             <div >
@@ -176,7 +224,7 @@
                 <div role="tabpanel" class="tab-pane fade" id="royos">
                     <div class="informacion row no-margin">
                         <div class="col-sm-6 left-side">
-                            <img class="vertical-align" src="img/productos/1.jpg" alt="">
+                            <img class="vertical-align" src="img/productos/4.jpg" alt="">
                         </div>
                         <div class="col-sm-6 right-side">
                             <div >
@@ -302,7 +350,7 @@
                     </p>
                 </div>
                 <div class="col-sm-3">
-                    <img src="img/servicios/1.png" alt="">
+                    <img src="img/servicios/5.png" alt="">
                     <h6>Cortadora</h6>
                     <p>
                         Corta la lija exactamente a la medida que el cliente
@@ -311,7 +359,7 @@
                     </p>
                 </div>
                 <div class="col-sm-3">
-                    <img src="img/servicios/2.png" alt="">
+                    <img src="img/servicios/6.png" alt="">
                     <h6>Vulcanizadora</h6>
                     <p>
                         El cierre hermético que ofrecemos permite que
@@ -320,7 +368,7 @@
                     </p>
                 </div>
                 <div class="col-sm-3">
-                    <img src="img/servicios/3.png" alt="">
+                    <img src="img/servicios/7.png" alt="">
                     <h6>Skiving</h6>
                     <p>
                         Refila los bordes para un mejor y mas eficiente
@@ -329,7 +377,7 @@
                     </p>
                 </div>
                 <div class="col-sm-3">
-                    <img src="img/servicios/4.png" alt="">
+                    <img src="img/servicios/8.png" alt="">
                     <h6>Slitter</h6>
                     <p>
                         Con esta maquinaria obtendremos la forma deseada,

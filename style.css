@@ -626,7 +626,8 @@ body {
 }
 
 .index .contacto .pre-top {
-    background-color: rgba(255, 240, 0, 1);
+    background: url(img/contacto/bg.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .index .contacto .pre-top h1 {
@@ -694,17 +695,22 @@ body {
 .index .contacto .middle {
     position: relative;
     height: auto;
+    background-color: rgba(253, 245, 239, 1);
 }
 
 .index .contacto .middle .map-container {
     position: absolute;
     height: 100%;
+    width: 50%;
     top: 0;
+    left: 0;
 }
 
 .index .contacto .middle .googleMap {
     position: relative;
     height: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .index .contacto .middle .form-container {
@@ -717,6 +723,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: rgba(150, 150, 150, 1);
+    background-color: transparent;
     width: 100%;
     margin: 15px 0;
     border: none;
