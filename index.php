@@ -35,8 +35,9 @@
                             <div>
                                 <h2>ABRASIVE SOLUTIONS</h2>
                                 <p>
-                                    Elaboración de bandas, hojas, discos, rollos y
-                                    especialidades en abrasivos revestidos.
+                                    El gran rango de calidades disponibles en rollos está diseñado
+                                    para cumplir con todos los requerimientos de tareas manuales o
+                                    con máquinas portátiles.
                                 </p>
                             </div>
                         </div>
@@ -51,8 +52,10 @@
                             <div>
                                 <h2>ABRASIVE SOLUTIONS</h2>
                                 <p>
-                                    Elaboración de bandas, hojas, discos, rollos y
-                                    especialidades en abrasivos revestidos.
+                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
+                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
+                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
+                                    de procesos industriales y artesanos.
                                 </p>
                             </div>
                         </div>
@@ -67,8 +70,8 @@
                             <div>
                                 <h2>ABRASIVE SOLUTIONS</h2>
                                 <p>
-                                    Elaboración de bandas, hojas, discos, rollos y
-                                    especialidades en abrasivos revestidos.
+                                    El extenso rango de calidades permite encontrar siempre
+                                    la solución óptima para cada aplicación.
                                 </p>
                             </div>
                         </div>
@@ -83,8 +86,10 @@
                             <div>
                                 <h2>ABRASIVE SOLUTIONS</h2>
                                 <p>
-                                    Elaboración de bandas, hojas, discos, rollos y
-                                    especialidades en abrasivos revestidos.
+                                    Los discos de papel se utilizan con afiladores excéntricos
+                                    o máquinas inmóviles con husos horizontales o verticales.<br>
+                                    Para poder unir los discos con el soporte tienen un sistema de
+                                    amarre rápido.
                                 </p>
                             </div>
                         </div>
@@ -155,7 +160,7 @@
                 <div role="tabpanel" class="tab-pane fade in active" id="discos">
                     <div class="informacion row no-margin">
                         <div class="col-sm-6 left-side">
-                            <img class="vertical-align" src="img/productos/1.jpg" alt="">
+                            <img class="vertical-align" src="img/productos/5.jpg" alt="">
                         </div>
                         <div class="col-sm-6 right-side">
                             <div >
@@ -163,10 +168,11 @@
                             </div>
                             <div>
                                 <p>
-                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
-                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
-                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
-                                    de procesos industriales y artesanos.
+                                    Los discos fabricados con abrasivos flexibles están disponibles en varios diámetros y con diversos
+                                    soportes, ofreciendo a los usuarios un amplio rango de opciones para seleccionar la herramienta que
+                                    mejor se adapte a las necesidades.<br>
+                                    Los discos de fibra son la respuesta óptima para obtener los mejores índices de desbaste mediante
+                                    la utilización de lijadoras angulares.
                                 </p>
                             </div>
                             <div>
@@ -178,7 +184,7 @@
                 <div role="tabpanel" class="tab-pane fade" id="hojas">
                     <div class="informacion row no-margin">
                         <div class="col-sm-6 left-side">
-                            <img class="vertical-align" src="img/productos/2.jpg" alt="">
+                            <img class="vertical-align" src="img/productos/6.jpg" alt="">
                         </div>
                         <div class="col-sm-6 right-side">
                             <div >
@@ -186,10 +192,10 @@
                             </div>
                             <div>
                                 <p>
-                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
-                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
-                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
-                                    de procesos industriales y artesanos.
+                                    Existen versiones disponibles especialmente diseñadas para trabajar con ciertos materiales
+                                    como la madera o el metal y que el cliente puede cortar o dar el formato adecuado a su aplicación.
+                                    Con soportes de tela o papel, las hojas se pueden utilizar en procesos en seco o en húmedo
+                                    dependiendo del material con el que se trabaje.
                                 </p>
                             </div>
                             <div>
@@ -209,10 +215,11 @@
                             </div>
                             <div>
                                 <p>
-                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
-                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
-                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
-                                    de procesos industriales y artesanos.
+                                    Las bandas pueden ser empleadas para cualquier proceso de lijado o pulido. Por ejemplo con un
+                                    patín de contacto, mediante la banda libre, o con un rodillo de contacto, se distinguen por
+                                    su alta resistencia a la tensión y por su soporte adaptable a cada aplicación, robusto, para
+                                    tareas duras o lijado de superficies planas, o flexible para el pulido de piezas redondeadas
+                                    con los soportes de tela que se adaptan a la curvatura de la pieza. 
                                 </p>
                             </div>
                             <div>
@@ -232,10 +239,12 @@
                             </div>
                             <div>
                                 <p>
-                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
-                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
-                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
-                                    de procesos industriales y artesanos.
+                                    Los rollos se pueden utilizar en todas aquellas aplicaciones en las que las bandas no pueden ser
+                                    usadas por razones técnicas o económicas. En línea con las necesidades del usuario, los rollos
+                                    se pueden cortar en cualquier ancho deseado, sin embargo, los rollos más estrechos de 80 mm están
+                                    clasificados como rollos económicos.<br>
+                                    Estan diseñados para cumplir con todos los requerimientos de tareas manuales o con máquinas portátiles,
+                                    ya sea con soportes de papel o de tela, para aplicaciones en seco o húmedo.
                                 </p>
                             </div>
                             <div>
@@ -255,10 +264,11 @@
                             </div>
                             <div>
                                 <p>
-                                    Un abrasivo es una sustancia que tiene como finalidad actuar sobre
-                                    otros materiales con diferentes clases de esfuerzo mécanico -triturado,
-                                    molienda, corte, pulido-. Es de elevada dureza y se emplea en todo tipo
-                                    de procesos industriales y artesanos.
+                                   Las series de alta calidad representan el rendimiento sólido y constante
+                                   de la empresa y es la base de la amplia gama de productos. Nuestros productos
+                                   consiguen índices de corte extremadamente altos, que unidos a un excelente
+                                   rendimiento economizan el proceso de lijado. Al mismo tiempo permiten conseguir
+                                   un acabado superficial predefinido.
                                 </p>
                             </div>
                             <div>
