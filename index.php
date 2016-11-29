@@ -175,9 +175,11 @@
                                     la utilización de lijadoras angulares.
                                 </p>
                             </div>
+                            <!--
                             <div>
                                 <a href="">MÁS...</a>
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -198,9 +200,11 @@
                                     dependiendo del material con el que se trabaje.
                                 </p>
                             </div>
+                            <!--
                             <div>
                                 <a href="">MÁS...</a>
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -222,9 +226,11 @@
                                     con los soportes de tela que se adaptan a la curvatura de la pieza. 
                                 </p>
                             </div>
+                            <!--
                             <div>
                                 <a href="">MÁS...</a>
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -247,9 +253,11 @@
                                     ya sea con soportes de papel o de tela, para aplicaciones en seco o húmedo.
                                 </p>
                             </div>
+                            <!--
                             <div>
                                 <a href="">MÁS...</a>
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -271,9 +279,11 @@
                                    un acabado superficial predefinido.
                                 </p>
                             </div>
+                            <!--
                             <div>
                                 <a href="">MÁS...</a>
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -488,7 +498,8 @@
                     <div class="col-sm-10 form">
                         <form action="mailer.php" method="POST" id="contact-form">
                             <input type="text" name="name" id="name" placeholder="Nombre">
-                            <input type="email" name="email" id="email" placeholder="Teléfono">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            <input type="text" name="phone" id="phone" placeholder="Teléfono">
                             <input type="text" name="state" id="state" placeholder="Estado">
                             <textarea name="mssg" id="mssg" cols="30" rows="5" placeholder="Mensaje"></textarea>
                             <div class="text-right">
